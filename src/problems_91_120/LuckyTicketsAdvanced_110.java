@@ -18,7 +18,6 @@ public class LuckyTicketsAdvanced_110 {
 		int n = scan.nextInt();
 		int b = scan.nextInt();
 		System.out.print(CountLucky(n, b) + " ");
-
 	}
 
 	private BigInteger CountLucky(int digits, int base) {
@@ -46,5 +45,4 @@ public class LuckyTicketsAdvanced_110 {
 
 		return luckyNumbers;
 	}
-
 }
