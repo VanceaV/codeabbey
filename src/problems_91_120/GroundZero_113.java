@@ -42,7 +42,6 @@ public class GroundZero_113 {
 				}
 			}
 		}
-
 	}
 
 	private void find_X0_Y0_T0(double data[][]) {
@@ -73,7 +72,7 @@ public class GroundZero_113 {
 
 		String time = Findtime(data, x, y);
 
-		System.out.print(x + " " + y + " " + time+" ");
+		System.out.print(x + " " + y + " " + time + " ");
 	}
 
 	private String Findtime(double[][] data, int x, int y) {
